@@ -26,3 +26,18 @@ Before running the tests make sure you are serving the app via `ng serve`.
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+
+# User Stories
+
+* User can choose a goal (lose weight, gain muscle, train the brain).
+* User is provided with certain mini-goals needed to accomplish bigger goal (calorie intake/activity level). 
+* User can choose meal options (breakfast, lunch, dinner) or have the app generate one for them each day.
+* User has access to each meal's chosen recipe.
+* User can edit or remove the selected meal throughout the week.
+* User will be able to log "actual" meal logs.
+* User can compare "actual" food logs with "suggested/planned" food logs using charts/graphs.
+* User can log calories burned, specific activities performed every day.
+* User daily calorie intake and calorie spending will update after food and activity logs.
+* User can track brain training scores. (maybe)
+
