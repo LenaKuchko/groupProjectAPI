@@ -6,3 +6,4 @@ export class Recipe {
               public fat: number,
               public protein: number){}
 }
+//
