@@ -7,7 +7,9 @@ export class Recipe {
               public calories: number,
               public carbs: number,
               public fat: number,
-              public protein: number
-            ){}
+              public protein: number,
+              public link: string,
+              public image: string
+              ){}
 }
 //

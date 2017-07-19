@@ -31,7 +31,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 # User Stories
 
 * User can choose a goal (lose weight, gain muscle, train the brain).
-* User is provided with certain mini-goals needed to accomplish bigger goal (calorie intake/activity level). 
+* User is provided with certain mini-goals needed to accomplish bigger goal (calorie intake/activity level).
 * User can choose meal options (breakfast, lunch, dinner) or have the app generate one for them each day.
 * User has access to each meal's chosen recipe.
 * User can edit or remove the selected meal throughout the week.
@@ -41,3 +41,4 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 * User daily calorie intake and calorie spending will update after food and activity logs.
 * User can track brain training scores. (maybe)
 
+![screen-shot-2014-01-22-at-2 36 13-pm-300x222](https://user-images.githubusercontent.com/25647710/28343859-5312d820-6bd4-11e7-897e-ae7d7364a445.png)

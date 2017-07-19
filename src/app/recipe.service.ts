@@ -23,7 +23,7 @@ export class RecipeService {
       let foundRecipe: Recipe;
       for(let result of response.json().hits) {
         let caloriesPer = (result.recipe.calories / result.recipe.yield);
-        foundRecipe = new Recipe(result.recipe.label, caloriesPer, result.recipe.totalNutrients.CHOCDF.quantity, result.recipe.totalNutrients.FAT.quantity, result.recipe.totalNutrients.PROCNT.quantity)
+        foundRecipe = new Recipe(result.recipe.label, caloriesPer, result.recipe.totalNutrients.CHOCDF.quantity, result.recipe.totalNutrients.FAT.quantity, result.recipe.totalNutrients.PROCNT.quantity, result.recipe.url, result.recipe.image)
 
         for(let item of result.recipe.ingredients){
           foundRecipe.ingredients.push(item.text);
